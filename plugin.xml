@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-yourpay-integration-zettle" version="0.0.1">
+  <name>ZettlePlugin</name>
+
+  <description>Zettle integration through Cordova for Yourpay.</description>
+  <license>MIT</license>
+
+  <keywords>cordova,android,zettle,yourpay,payment</keywords>
+  <repo>https://github.com/YourpayPayments/Point-Of-Sale-Integration-Zettle.git</repo>
+  <issue>https://github.com/YourpayPayments/POS/issues</issue>
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0"/>
+  </engines>
+
+  <js-module src="www/zettle.js" name="zettlePlugin">
+    <clobbers target="window.plugins.zettlePlugin" />
+  </js-module>
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="ZettlePlugin">
+        <param name="android-package" value="io.zettle.ZettlePlugin"/>
+      </feature>
+    </config-file>
+    <source-file src="src/android/ZettlePlugin.java" target-dir="src/io/zettle" />
+  </platform>
+</plugin>

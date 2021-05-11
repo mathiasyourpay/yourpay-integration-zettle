@@ -1,0 +1,59 @@
+{
+  "_from": "git+https://github.com/mathiasyourpay/yourpay-integration-zettle.git",
+  "_id": "cordova-yourpay-integration-payworks@0.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-yourpay-integration-Zettle",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/mathiasyourpay/yourpay-integration-zettle.git",
+    "rawSpec": "https://github.com/mathiasyourpay/yourpay-integration-zettle.git",
+    "saveSpec": "git+https://github.com/mathiasyourpay/yourpay-integration-zettle.git",
+    "fetchSpec": "https://github.com/mathiasyourpay/yourpay-integration-zettle.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "git+https://github.com/mathiasyourpay/yourpay-integration-zettle.git",
+  "_spec": "https://github.com/mathiasyourpay/yourpay-integration-zettle.git",
+  "_where": "C:\\POS_APP",
+  "author": {
+    "name": "Mathias Gajhede",
+    "email": "mag@yourpay.io"
+  },
+  "bugs": {
+    "url": "https://github.com/mathiasyourpay/yourpay-integration-zettle/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-yourpay-integration-Zettle",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Zettle integration for Yourpay",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/mathiasyourpay/yourpay-integration-zettle",
+  "keywords": [
+    "Payment",
+    "Zettle",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "cordova-yourpay-integration-zettle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiasyourpay/yourpay-integration-zettle.git"
+  },
+  "version": "0.0.1"
+}
