@@ -65,7 +65,7 @@ public class ZettlePlugin extends CordovaPlugin {
         Log.wtf("hej",action);
 
         String clientId = "1c702275-51dc-4790-8cdc-f2b0ac35cb3c";
-        String redirectUrl = "https://yourpay_pos";
+        String redirectUrl = "yourpay://pos";
         IZettleSDK.Instance.init(cordova.getContext(), clientId, redirectUrl);
         ProcessLifecycleOwner.get().getLifecycle().addObserver(new SdkLifecycle(IZettleSDK.Instance));
 
